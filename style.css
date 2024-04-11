@@ -24,7 +24,3 @@ body {
     flex-basis: 25%;
     height: 130px;
 }
-
-.boxes:hover {
-    background-color: blue;
-}
