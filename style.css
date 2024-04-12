@@ -8,19 +8,27 @@ html {
 body {
     padding: 0;
     margin: 0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding: 5%;
+    width: 100%;
 }
 
 .boxes {
     border:2px solid black;
-    flex-basis: 25%;
-    height: 130px;
+    aspect-ratio: 1/1; /* esto hace que el width y el height sean del mismo tamano, 
+    uno dependera del otro */
+}
+
+button {
+    width: 90%;
+    height: 60px;
+    color:white;
+    background-color: black;
 }
